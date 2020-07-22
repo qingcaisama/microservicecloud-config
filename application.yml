@@ -1,0 +1,15 @@
+server
+  profiles: 
+    actives: dev
+
+-----
+spring:
+  profiles: test
+  application: 
+    name:microservicecloud-config-gaowei-test
+    
+-----
+spring:
+  profiles: dev
+  application: 
+    name:microservicecloud-config-gaowei-dev
